@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ameera Nafed</title>
+  <link rel="icon" href="assits/icon/logo.ico" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet"/>
+
+  <!-- Typed.js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg custom-navbar fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Ameera</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+        <ul class="navbar-nav align-items-center">
+          <li class="nav-item" data-aos="fade-up" data-aos-delay="100">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item" data-aos="fade-up" data-aos-delay="200">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item" data-aos="fade-up" data-aos-delay="300">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item" data-aos="fade-up" data-aos-delay="400">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item" data-aos="fade-up" data-aos-delay="500">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+           <li class="nav-item">
+          <button id="themeToggle" class="btn-theme">
+            <i class="bi bi-moon-fill"></i>
+          </button>
+        </li>
+          <li class="nav-item" data-aos="fade-up" data-aos-delay="700">
+            <select id="languageSwitcher" class="form-select form-select-sm ms-2">
+              <option value="en">EN</option>
+              <option value="ar">AR</option>
+            </select>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Landing Section -->
+ <section class="landing-section blurred-bg blur-light  d-flex align-items-center" id="home">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Left -->
+      <div class="col-md-6 text-start ">
+        <h3 class="hello-text" data-aos="fade-down" data-aos-delay="100">Hello, it’s me</h3>
+        <h1 class="name-text" data-aos="fade-right" data-aos-delay="200">Ameera Nafed</h1>
+        <h2 class="typed-text" data-aos="fade-up" data-aos-delay="300"><span id="typed"></span></h2>
+       <div class="buttons mt-4 d-flex flex-column align-items-start gap-2">
+        <a href="CV/AmeeraNafedCV.pdf" class="btn btn-primary" download>Download CV</a>
+  
+  <div class="d-flex gap-3">
+<a href="https://github.com/ameeranafed" target="_blank" class="icon-link"><i class="bi bi-github"></i></a>
+    <a href="https://www.linkedin.com/in/ameera-nafed/"  target="_blank" class="icon-link"><i class="bi bi-linkedin"></i></a>
+  </div>
+</div>
+      </div>
+
+      <!-- Right -->
+      <div class="col-md-6 text-center" data-aos="zoom-in" data-aos-delay="300">
+        <div class="img-wrapper floating">
+          <img src="assits/images/landing.jpg" class="img-fluid profile-img" alt="Ameera" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- About me section -->
+<section id="about" class="about-section blurred-bg py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Left: Image with animated border -->
+      <div class="about-img-wrapper" data-aos="fade-right">
+  <img src="assits/images/AboutMe2.jpg" alt="About Me" class="about-img" />
+  
+</div>
+
+
+      <!-- Right: Text -->
+      <div class="col-md-6" data-aos="fade-up">
+        <h2 class="section-title mb-3">About Me</h2>
+        <p class="about-description mb-4">
+         I’m<strong > Ameera Nafed</strong>, a Software Engineering graduate with a strong foundation in web development, especially using .NET and Angular, along with solid knowledge across various software engineering domains. I’m passionate about creating practical and user-friendly web applications, and I enjoy working on projects that blend creativity with real-world impact. I’m always eager to learn, grow, and explore new technologies while building meaningful solutions.
+        </p>
+
+        <!-- Tabs -->
+        <ul class="nav nav-tabs mb-3 about-tabs" id="aboutTabs" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="internship-tab" data-bs-toggle="tab" data-bs-target="#internship" type="button" role="tab">Internship</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="education-tab" data-bs-toggle="tab" data-bs-target="#education" type="button" role="tab">Education</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="aboutTabsContent">
+         
+           <!-- Internship Tab -->
+         <div class="tab-pane fade show active" id="internship" role="tabpanel">
+  <ul class="timeline-list">
+    <li class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h5 class="mb-1">Mar 2025 – Present</h5>
+        <strong>Full Stack .NET Developer Intern</strong>
+        <p>Training with .NET & Angular at Intelligence Internship Program, focusing on real-world project delivery.</p>
+      </div>
+    </li>
+    <li class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h5 class="mb-1">Jul 2024 – Aug 2024</h5>
+        <strong>Internship at KabsetZr Company</strong>
+        <p>During my internship at KabsetZr, I learned website design and development using tools and technologies such as SP Page Builder Pro. I contributed to developing user interfaces, enhancing user experience, and creating customized websites tailored to clients' needs.</p>
+      </div>
+    </li>
+  </ul>
+</div>
+
+          <!-- Education Tab -->
+         <div class="tab-pane fade" id="education" role="tabpanel">
+  <ul class="timeline-list">
+    <li class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h5 class="mb-1">2021 – 2025</h5>
+        <strong>Hashemite University</strong>
+        <p>Bachelor’s Degree in Software Engineering<br>GPA: 3.75 / 4.00</p>
+      </div>
+    </li>
+   
+  </ul>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Skills Section-->>
+<section class="skills-section blurred-bg position-relative py-5"id="skills">
+ 
+  <div class="container position-relative">
+    <h2 class="section-title text-center mb-5">Skills</h2>
+    <div class="row text-center g-4">
+
+      <div class="col-6 col-md-3" data-aos="fade-up">
+        <div class="skill-box p-4 shadow-sm rounded">
+          <i class="bi bi-code-slash skill-icon"></i>
+          <h5 class="mt-3">HTML</h5>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="100">
+        <div class="skill-box p-4 shadow-sm rounded">
+          <i class="bi bi-braces skill-icon"></i>
+          <h5 class="mt-3">CSS</h5>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="200">
+        <div class="skill-box p-4 shadow-sm rounded">
+          <i class="bi bi-bootstrap skill-icon"></i>
+          <h5 class="mt-3">Bootstrap</h5>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="300">
+        <div class="skill-box p-4 shadow-sm rounded">
+          <i class="bi bi-file-code skill-icon"></i>
+          <h5 class="mt-3">TypeScript</h5>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="400">
+        <div class="skill-box p-4 shadow-sm rounded">
+          <i class="bi bi-server skill-icon"></i>
+          <h5 class="mt-3">C#</h5>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="500">
+        <div class="skill-box p-4 shadow-sm rounded">
+          <i class="bi bi-window-stack skill-icon"></i>
+          <h5 class="mt-3">ASP.NET Core</h5>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="600">
+        <div class="skill-box p-4 shadow-sm rounded">
+          <i class="bi bi-database skill-icon"></i>
+          <h5 class="mt-3">SQL Server</h5>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="700">
+        <div class="skill-box p-4 shadow-sm rounded">
+          <i class="bi bi-people skill-icon"></i>
+          <h5 class="mt-3">Teamwork</h5>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section id="projects" class="projects-section blurred-bg py-5">
+  <div class="container">
+
+
+    <div class="projects-intro d-flex align-items-center mb-5">
+      <div class="flex-grow-1">
+        <h2 class="section-title">My Projects</h2>
+        <p class="section-description">
+          Here are a few projects I’ve worked on recently. Each one reflects my skills and passion.
+        </p>
+      </div>
+      <div class="vertical-bar ms-4"></div>
+    </div>
+
+    
+    <div class="row g-4">
+      <!-- Project 1 -->
+      <div class="col-md-6"data-aos="fade-up" >
+        <div class="project-card">
+          <img src="assits/images/project1.jpg" class="project-img" alt="Project 1" />
+          <div class="project-overlay">
+            <h5>Exam Scheduling System</h5>
+            <p>Web based application designed for managing exam reservations efficiently and solve as much as 
+possible contradiction problem in exam time. Built using ASP.NET Core MVC and SQL Server. </p>
+            <a href="https://github.com/username/project1" target="_blank"><i class="bi bi-box-arrow-up-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="col-md-6"data-aos="fade-up" data-aos-delay="100">
+        <div class="project-card">
+          <img src="assits/images/project2.jpg" class="project-img" alt="Project 2" />
+          <div class="project-overlay">
+            <h5>Enviroseek</h5>
+            <p>Designed and built using HTML, CSS, Figma .It was created out of our sense of belonging 
+and responsibility towards the environment and citizens . The site addresses some environmental 
+issues and provides welfare and enjoyment services to its users while achieving the most important 
+goal of maintaining sustainable development.</p>
+            <a href="https://github.com/username/project2" target="_blank"><i class="bi bi-box-arrow-up-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="contact-section blurred-bg" id="contact">
+  <div class="container py-5">
+    <div class="row align-items-stretch justify-content-between">
+      <!-- Left Side: Info -->
+      <div class="col-md-5 mb-4 mb-md-0">
+        <h2 class="section-title mb-4" data-aos="fade-down">Let's Talk</h2>
+        <p class="about-description mb-4" data-aos="fade-left" data-aos-delay="200">
+          Feel free to reach out to me for collaborations, opportunities, or just to say hello!
+        </p>
+
+        <div class="contact-info-item d-flex align-items-start mb-3" data-aos="fade-right" data-aos-delay="300">
+          <div class="contact-icon me-3"><i class="bi bi-geo-alt-fill"></i></div>
+          <div>
+            <h5 class="mb-1">Address</h5>
+            <p class="mb-0">Amman, Jordan</p>
+          </div>
+        </div>
+
+        <div class="contact-info-item d-flex align-items-start mb-3" data-aos="fade-right" data-aos-delay="400">
+          <div class="contact-icon me-3"><i class="bi bi-telephone-fill"></i></div>
+          <div>
+            <h5 class="mb-1">Phone</h5>
+            <p class="mb-0">+962 7 9012 3456</p>
+          </div>
+        </div>
+
+        <div class="contact-info-item d-flex align-items-start mb-4" data-aos="fade-right" data-aos-delay="500">
+          <div class="contact-icon me-3"><i class="bi bi-envelope-fill"></i></div>
+          <div>
+            <h5 class="mb-1">Email</h5>
+            <p class="mb-0">ameeranafed03@gmail.com</p>
+          </div>
+        </div>
+
+        <!-- Social Icons -->
+        <div class="contact-social d-flex align-items-center" data-aos="fade-up" data-aos-delay="600">
+          <a href="https://github.com/ameeranafed" target="_blank" class="social-icon me-3" aria-label="GitHub"><i class="bi bi-github"></i></a>
+          <a href="https://linkedin.com/in/ameera-nafed" target="_blank" class="social-icon me-3" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          
+        </div>
+      </div>
+
+      <!-- Right Side: Form -->
+      <div class="col-md-6" data-aos="fade-left" data-aos-delay="300">
+        <form class="contact-form shadow-sm rounded p-4">
+          <h4 class="mb-4">Send a Message</h4>
+          <div class="mb-3">
+            <label class="form-label" for="fullname">Full Name</label>
+            <input type="text" class="form-control" id="fullname" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="email">Email</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="message">Message</label>
+            <textarea class="form-control" id="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Scroll Indicator -->
+<div class="scroll-indicator"></div>
+<button id="backToTop" title="Back to top"><i class="bi bi-arrow-up-short"></i></button>
+
+
+  <!-- JS Libraries -->
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init();</script>
+  <script src="dist/script.js"></script>
+</body>
+</html>
